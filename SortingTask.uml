@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ubb.scs.map.ir.lab2.models.SortingTask</OriginalElement>
+  <nodes>
+    <node x="129.9999999999999" y="234.0">ubb.scs.map.ir.lab2.sorting.MergeSort</node>
+    <node x="856.9005262150783" y="582.0">ubb.scs.map.ir.lab2.runners.PrinterTaskRunner</node>
+    <node x="0.0" y="234.0">ubb.scs.map.ir.lab2.sorting.BubbleSort</node>
+    <node x="1006.0708237657864" y="505.0">ubb.scs.map.ir.lab2.runners.AbstractTaskRunner</node>
+    <node x="609.6580128205126" y="234.0">ubb.scs.map.ir.lab2.utils.Strategy</node>
+    <node x="746.037490432453" y="0.0">ubb.scs.map.ir.lab2.models.Task</node>
+    <node x="934.3663461538458" y="321.0">ubb.scs.map.ir.lab2.containers.QueueContainer</node>
+    <node x="1027.3663461538458" y="398.0">ubb.scs.map.ir.lab2.runners.TaskRunner</node>
+    <node x="106.29999999999995" y="127.0">ubb.scs.map.ir.lab2.sorting.Sorter</node>
+    <node x="153.7147148871028" y="321.0">ubb.scs.map.ir.lab2.models.SortingTask</node>
+    <node x="187.17752583237655" y="0.0">java.io.Serializable</node>
+    <node x="777.3663461538458" y="321.0">ubb.scs.map.ir.lab2.containers.StackContainer</node>
+    <node x="468.4064867967851" y="505.0">ubb.scs.map.ir.lab2.utils.Constants</node>
+    <node x="1093.0916570991196" y="582.0">ubb.scs.map.ir.lab2.runners.DelayTaskRunner</node>
+    <node x="251.9999999999999" y="234.0">ubb.scs.map.ir.lab2.utils.SortingMethod</node>
+    <node x="656.679692881745" y="127.0">ubb.scs.map.ir.lab2.containers.Container</node>
+    <node x="283.4999999999999" y="127.0">java.lang.Enum</node>
+    <node x="590.4064867967851" y="505.0">ubb.scs.map.ir.lab2.runners.StrategyTaskRunner</node>
+    <node x="664.1580128205126" y="321.0">ubb.scs.map.ir.lab2.factories.Factory</node>
+    <node x="330.17752583237655" y="0.0">java.lang.Comparable</node>
+    <node x="684.7820225794104" y="398.0">ubb.scs.map.ir.lab2.factories.TaskContainerFactory</node>
+    <node x="852.7820225794104" y="234.0">ubb.scs.map.ir.lab2.containers.AbstractContainer</node>
+    <node x="400.2189867967851" y="582.0">ubb.scs.map.ir.lab2.models.MessageTask</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ubb.scs.map.ir.lab2.containers.StackContainer" target="ubb.scs.map.ir.lab2.models.Task">
+      <point x="-45.66666666666663" y="-13.5" />
+      <point x="800.1996794871792" y="301.0" />
+      <point x="811.4314867967851" y="301.0" />
+      <point x="811.4314867967851" y="107.0" />
+      <point x="779.537490432453" y="107.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.runners.DelayTaskRunner" target="ubb.scs.map.ir.lab2.runners.TaskRunner">
+      <point x="45.66666666666663" y="-13.5" />
+      <point x="1207.2583237657864" y="562.0" />
+      <point x="1196.4666570991199" y="562.0" />
+      <point x="1196.4666570991199" y="475.0" />
+      <point x="1127.2830128205126" y="475.0" />
+      <point x="45.41666666666674" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.runners.StrategyTaskRunner" target="ubb.scs.map.ir.lab2.models.Task">
+      <point x="-63.200000000000045" y="-13.5" />
+      <point x="606.206486796785" y="485.0" />
+      <point x="545.929692881745" y="485.0" />
+      <point x="545.929692881745" y="97.0" />
+      <point x="769.2297981247607" y="97.0" />
+      <point x="-10.307692307692264" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.runners.PrinterTaskRunner" target="ubb.scs.map.ir.lab2.utils.Constants">
+      <point x="-56.625" y="-13.5" />
+      <point x="875.7755262150783" y="562.0" />
+      <point x="544.9064867967851" y="562.0" />
+      <point x="25.5" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.utils.SortingMethod" target="java.lang.Enum">
+      <point x="0.0" y="-13.5" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.runners.PrinterTaskRunner" target="ubb.scs.map.ir.lab2.runners.AbstractTaskRunner">
+      <point x="56.625" y="-13.5" />
+      <point x="989.0255262150783" y="562.0" />
+      <point x="1065.3208237657864" y="562.0" />
+      <point x="-19.75" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.runners.DelayTaskRunner" target="ubb.scs.map.ir.lab2.runners.AbstractTaskRunner">
+      <point x="0.0" y="-13.5" />
+      <point x="1161.5916570991196" y="562.0" />
+      <point x="1144.3208237657864" y="562.0" />
+      <point x="59.25" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.runners.StrategyTaskRunner" target="ubb.scs.map.ir.lab2.factories.TaskContainerFactory">
+      <point x="31.600000000000023" y="-13.5" />
+      <point x="701.0064867967851" y="445.0" />
+      <point x="774.2820225794104" y="445.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.factories.TaskContainerFactory" target="ubb.scs.map.ir.lab2.containers.Container">
+      <point x="0.0" y="-13.5" />
+      <point x="774.2820225794104" y="378.0" />
+      <point x="762.6580128205126" y="378.0" />
+      <point x="762.6580128205126" y="204.0" />
+      <point x="720.429692881745" y="204.0" />
+      <point x="12.75" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.containers.StackContainer" target="ubb.scs.map.ir.lab2.containers.AbstractContainer">
+      <point x="0.0" y="-13.5" />
+      <point x="845.8663461538458" y="301.0" />
+      <point x="872.5320225794104" y="301.0" />
+      <point x="-59.25" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.factories.TaskContainerFactory" target="ubb.scs.map.ir.lab2.containers.StackContainer">
+      <point x="35.799999999999955" y="-13.5" />
+      <point x="810.0820225794104" y="368.0" />
+      <point x="845.8663461538458" y="368.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.containers.Container" target="ubb.scs.map.ir.lab2.models.Task">
+      <point x="0.0" y="-13.5" />
+      <point x="707.679692881745" y="107.0" />
+      <point x="774.3836442786068" y="107.0" />
+      <point x="-5.153846153846189" y="13.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="-16.75" y="-13.5" />
+      <point x="300.2499999999999" y="107.0" />
+      <point x="248.67752583237655" y="107.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.runners.StrategyTaskRunner" target="ubb.scs.map.ir.lab2.runners.TaskRunner">
+      <point x="63.200000000000045" y="-13.5" />
+      <point x="732.6064867967851" y="455.0" />
+      <point x="1036.4496794871793" y="455.0" />
+      <point x="-45.41666666666663" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.runners.TaskRunner" target="ubb.scs.map.ir.lab2.models.Task">
+      <point x="0.0" y="-13.5" />
+      <point x="1081.8663461538458" y="57.0" />
+      <point x="805.3067212016837" y="57.0" />
+      <point x="25.769230769230717" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.runners.AbstractTaskRunner" target="ubb.scs.map.ir.lab2.runners.TaskRunner">
+      <point x="-19.75" y="-13.5" />
+      <point x="1065.3208237657864" y="485.0" />
+      <point x="1090.949679487179" y="485.0" />
+      <point x="9.083333333333258" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.factories.Factory" target="ubb.scs.map.ir.lab2.containers.Container">
+      <point x="22.0" y="-13.5" />
+      <point x="730.1580128205126" y="214.0" />
+      <point x="694.929692881745" y="214.0" />
+      <point x="-12.75" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.factories.TaskContainerFactory" target="ubb.scs.map.ir.lab2.factories.Factory">
+      <point x="-35.799999999999955" y="-13.5" />
+      <point x="738.4820225794105" y="378.0" />
+      <point x="708.1580128205126" y="378.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Enum">
+      <point x="-22.333333333333314" y="13.5" />
+      <point x="294.6666666666666" y="174.0" />
+      <point x="263.4999999999999" y="174.0" />
+      <point x="263.4999999999999" y="140.5" />
+      <point x="-33.5" y="-0.0" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.models.SortingTask" target="ubb.scs.map.ir.lab2.sorting.BubbleSort">
+      <point x="-48.333333333333314" y="-13.5" />
+      <point x="163.38138155376947" y="301.0" />
+      <point x="54.5" y="301.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.sorting.MergeSort" target="ubb.scs.map.ir.lab2.sorting.Sorter">
+      <point x="25.5" y="-13.5" />
+      <point x="206.4999999999999" y="214.0" />
+      <point x="179.19999999999993" y="214.0" />
+      <point x="32.400000000000006" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.containers.AbstractContainer" target="ubb.scs.map.ir.lab2.models.Task">
+      <point x="-19.75" y="-13.5" />
+      <point x="912.0320225794104" y="214.0" />
+      <point x="923.9314867967851" y="214.0" />
+      <point x="923.9314867967851" y="97.0" />
+      <point x="784.6913365862991" y="97.0" />
+      <point x="5.153846153846189" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.models.SortingTask" target="ubb.scs.map.ir.lab2.models.Task">
+      <point x="29.0" y="-13.5" />
+      <point x="240.7147148871028" y="291.0" />
+      <point x="415.62817642556433" y="291.0" />
+      <point x="415.62817642556433" y="57.0" />
+      <point x="748.614413509376" y="57.0" />
+      <point x="-30.923076923076906" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.factories.TaskContainerFactory" target="ubb.scs.map.ir.lab2.containers.QueueContainer">
+      <point x="71.60000000000002" y="-13.5" />
+      <point x="845.8820225794104" y="378.0" />
+      <point x="1002.8663461538458" y="378.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.runners.AbstractTaskRunner" target="ubb.scs.map.ir.lab2.models.Task">
+      <point x="59.25" y="-13.5" />
+      <point x="1144.3208237657864" y="485.0" />
+      <point x="1146.8663461538458" y="485.0" />
+      <point x="1146.8663461538458" y="47.0" />
+      <point x="810.4605673555299" y="47.0" />
+      <point x="30.923076923076906" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.models.MessageTask" target="ubb.scs.map.ir.lab2.utils.Constants">
+      <point x="36.33333333333326" y="-13.5" />
+      <point x="491.05232013011835" y="562.0" />
+      <point x="493.9064867967851" y="562.0" />
+      <point x="-25.5" y="13.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="16.75" y="-13.5" />
+      <point x="333.7499999999999" y="107.0" />
+      <point x="384.67752583237655" y="107.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.containers.QueueContainer" target="ubb.scs.map.ir.lab2.containers.AbstractContainer">
+      <point x="0.0" y="-13.5" />
+      <point x="1002.8663461538458" y="301.0" />
+      <point x="991.0320225794104" y="301.0" />
+      <point x="59.25" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.models.SortingTask" target="ubb.scs.map.ir.lab2.sorting.MergeSort">
+      <point x="-9.666666666666686" y="-13.5" />
+      <point x="202.0480482204361" y="281.0" />
+      <point x="180.9999999999999" y="281.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.models.SortingTask" target="ubb.scs.map.ir.lab2.utils.SortingMethod">
+      <point x="9.666666666666686" y="-13.5" />
+      <point x="221.38138155376947" y="281.0" />
+      <point x="316.9999999999999" y="281.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.sorting.BubbleSort" target="ubb.scs.map.ir.lab2.sorting.Sorter">
+      <point x="-27.25" y="-13.5" />
+      <point x="27.25" y="194.0" />
+      <point x="114.39999999999998" y="194.0" />
+      <point x="-32.400000000000006" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.runners.PrinterTaskRunner" target="ubb.scs.map.ir.lab2.runners.TaskRunner">
+      <point x="-18.875" y="-13.5" />
+      <point x="913.5255262150783" y="562.0" />
+      <point x="916.4005262150783" y="562.0" />
+      <point x="916.4005262150783" y="465.0" />
+      <point x="1054.6163461538458" y="465.0" />
+      <point x="-27.25" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.utils.Strategy" target="java.lang.Enum">
+      <point x="0.0" y="-13.5" />
+      <point x="653.6580128205126" y="204.0" />
+      <point x="339.3333333333332" y="204.0" />
+      <point x="22.333333333333314" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.factories.Factory" target="ubb.scs.map.ir.lab2.utils.Strategy">
+      <point x="-22.0" y="-13.5" />
+      <point x="686.1580128205126" y="301.0" />
+      <point x="682.9913461538459" y="301.0" />
+      <point x="29.33333333333337" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.runners.StrategyTaskRunner" target="ubb.scs.map.ir.lab2.utils.Strategy">
+      <point x="0.0" y="-13.5" />
+      <point x="669.4064867967851" y="465.0" />
+      <point x="626.4080128205126" y="465.0" />
+      <point x="626.4080128205126" y="301.0" />
+      <point x="624.3246794871792" y="301.0" />
+      <point x="-29.333333333333314" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.containers.AbstractContainer" target="ubb.scs.map.ir.lab2.containers.Container">
+      <point x="-59.25" y="-13.5" />
+      <point x="872.5320225794104" y="194.0" />
+      <point x="745.929692881745" y="194.0" />
+      <point x="38.25" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.models.MessageTask" target="ubb.scs.map.ir.lab2.models.Task">
+      <point x="0.0" y="-13.5" />
+      <point x="454.7189867967851" y="562.0" />
+      <point x="442.7820225794104" y="562.0" />
+      <point x="442.7820225794104" y="87.0" />
+      <point x="764.0759519709145" y="87.0" />
+      <point x="-15.461538461538453" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.containers.QueueContainer" target="ubb.scs.map.ir.lab2.models.Task">
+      <point x="45.66666666666663" y="-13.5" />
+      <point x="1048.5330128205123" y="301.0" />
+      <point x="1033.181486796785" y="301.0" />
+      <point x="1033.181486796785" y="67.0" />
+      <point x="800.1528750478376" y="67.0" />
+      <point x="20.61538461538464" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.runners.StrategyTaskRunner" target="ubb.scs.map.ir.lab2.containers.Container">
+      <point x="-31.600000000000023" y="-13.5" />
+      <point x="637.8064867967851" y="475.0" />
+      <point x="556.929692881745" y="475.0" />
+      <point x="556.929692881745" y="214.0" />
+      <point x="669.429692881745" y="214.0" />
+      <point x="-38.25" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.factories.TaskContainerFactory" target="ubb.scs.map.ir.lab2.utils.Strategy">
+      <point x="-71.60000000000002" y="-13.5" />
+      <point x="702.6820225794104" y="378.0" />
+      <point x="653.6580128205126" y="378.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="ubb.scs.map.ir.lab2.models.SortingTask" target="ubb.scs.map.ir.lab2.sorting.Sorter">
+      <point x="-29.0" y="-13.5" />
+      <point x="182.7147148871028" y="291.0" />
+      <point x="119.49999999999989" y="291.0" />
+      <point x="119.49999999999989" y="214.0" />
+      <point x="146.79999999999995" y="214.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5724137931034483" x="690.1309165232357" y="238.21191910499135" />
+  <SelectedNodes>
+    <node>ubb.scs.map.ir.lab2.models.SortingTask</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
